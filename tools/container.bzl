@@ -49,6 +49,6 @@ def container_push_official(name, image, component):
     oci_push(
         name = name,
         image = image,
-        repository = "ghcr.io/buildbarn/" + component,
+        repository = "msftelectronbuild.azurecr.io/buildbarn/" + component,
         remote_tags = "@com_github_buildbarn_bb_storage//tools:stamped_tags",
     )
