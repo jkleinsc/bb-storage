@@ -50,5 +50,5 @@ def container_push_official(name, image, component):
         name = name,
         image = image,
         repository = "msftelectronbuild.azurecr.io/buildbarn/" + component,
-        remote_tags = "@com_github_buildbarn_bb_storage//tools:stamped_tags",
+        remote_tags = "20250113T162232Z-c0e7124",
     )
